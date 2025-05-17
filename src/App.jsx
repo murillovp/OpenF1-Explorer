@@ -204,8 +204,8 @@ function App() {
                   <tr>
                     <th>Lap</th>
                     <th>Lap Time</th>
-                    <th>Tyre (Compound)</th>
-                    <th>Tyre Age (Lap End)</th>
+                    <th>Tyre</th>
+                    <th>Tyre Age</th>
                   </tr>
                 </thead>
                 <tbody>
