@@ -1,5 +1,4 @@
 import { useState, useEffect } from 'react';
-import { BrowserRouter } from "react-router-dom";
 
 function App() {
   const [year, setYear] = useState(null);
@@ -236,10 +235,4 @@ function App() {
   );
 }
 
-const Root = () => (
-  <BrowserRouter basename={process.env.PUBLIC_URL}>
-    <App />
-  </BrowserRouter>
-);
-
-export default Root;
+export default App;
